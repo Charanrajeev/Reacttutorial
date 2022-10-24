@@ -1,23 +1,22 @@
 import logo from './logo.svg';
 import './App.css';
-
+import Great from './components/Great'
+import Welcome from './components/Welcome'
+import Hello from './components/Hello'
+import Message  from './components/Message';
+import Counter from './components/Counter';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Counter/>
+      {/* <Great/>}
+      <Welcome/>
+       <Hello name="saikumar" id='21'>fghjk</Hello>
+      <Hello name = "charan" id='28'>fghjk</Hello>
+      <Hello name = "world" id='29'>fghjk</Hello>
+      <Welcome name="saikumar" id='21'/> */}
+      {/* <Message/> */}
+
     </div>
   );
 }
